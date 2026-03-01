@@ -1,10 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Learning Efficiency</title>
+    <title>Learning Efficiency App</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
 </head>
 <body>
-    <h1>Welcome to Learning Efficiency App</h1>
-    <p><a href="/api/sessions/">API Sessions</a></p>
+    <header>
+        <h1>Learning Efficiency App</h1>
+    </header>
+
+    <main>
+        <p>Track and analyze your learning sessions efficiently.</p>
+        <a class="button" href="/api/sessions/">View API Sessions</a>
+    </main>
 </body>
 </html>
