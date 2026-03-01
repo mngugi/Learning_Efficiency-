@@ -1,7 +1,4 @@
-from rest_framework.routers import DefaultRouter
-from .views import LearningSessionViewSet
+from django.shortcuts import render
 
-router = DefaultRouter()
-router.register(r'sessions', LearningSessionViewSet)
-
-urlpatterns = router.urls
+def home(request):
+    return render(request, "index.html")
