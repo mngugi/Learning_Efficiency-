@@ -1,10 +1,13 @@
-from django.urls import path
-from .views import LearningSessionViewSet, home  # import your views
+# research/urls.py
+from django.urls import path, include
+from rest_framework.routers import DefaultRouter
+from .views import LearningSessionViewSet, home
+
+router = DefaultRouter()
+router.register(r'sessions', LearningSessionViewSet, basename='sessions')
 
 urlpatterns = [
-    # Example home page
-    path('', home, name='home'),
-
-    # Example API endpoint
-    path('api/sessions/', LearningSessionViewSet.as_view({'get': 'list'}), name='sessions-list'),
+    path('api/', include(router.urls)),  # /api/sessions/
+    path('', home, name='home'),        # homepage
+]
 ]
