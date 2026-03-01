@@ -1,16 +1,19 @@
-from django.db import models
+# research/views.py
+from rest_framework import viewsets, serializers
+from django.shortcuts import render
+from .models import LearningSession
 
-class LearningSession(models.Model):
-    title = models.CharField(max_length=255)
+# Serializer for your LearningSession model
+class LearningSessionSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = LearningSession
+        fields = '__all__'
 
-    time_spent = models.FloatField()          # Ts
-    concept_links = models.FloatField()       # Cl
-    knowledge_gaps = models.FloatField()      # Kg
-    research_questions = models.FloatField()  # Rq
+# DRF ViewSet for CRUD operations
+class LearningSessionViewSet(viewsets.ModelViewSet):
+    queryset = LearningSession.objects.all()
+    serializer_class = LearningSessionSerializer
 
-    learning_efficiency = models.FloatField(blank=True, null=True)
-
-    created_at = models.DateTimeField(auto_now_add=True)
-
-    def __str__(self):
-        return self.title
+# Homepage view
+def home(request):
+    return render(request, "index.html")
