@@ -49,7 +49,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         # Add your templates folder here
-        'DIRS': [BASE_DIR / "templates"],
+        'DIRS': [BASE_DIR / 'research' / 'templates'],  # add this
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
