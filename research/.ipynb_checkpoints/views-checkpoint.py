@@ -1,20 +1,18 @@
-# research/views.py
-from rest_framework import viewsets
-from rest_framework import serializers
-from .models import LearningSession
 from django.shortcuts import render
+from rest_framework import viewsets, serializers
+from .models import LearningSession
 
-# --- DRF Serializer ---
+# Serializer
 class LearningSessionSerializer(serializers.ModelSerializer):
     class Meta:
         model = LearningSession
         fields = '__all__'
 
-# --- ViewSet for DRF ---
+# ViewSet
 class LearningSessionViewSet(viewsets.ModelViewSet):
     queryset = LearningSession.objects.all()
     serializer_class = LearningSessionSerializer
 
-# --- Simple homepage ---
+# Simple home view
 def home(request):
     return render(request, "index.html")
