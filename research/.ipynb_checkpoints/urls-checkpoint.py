@@ -1,4 +1,10 @@
-from django.shortcuts import render
+from django.urls import path
+from .views import LearningSessionViewSet, home  # import your views
 
-def home(request):
-    return render(request, "index.html")
+urlpatterns = [
+    # Example home page
+    path('', home, name='home'),
+
+    # Example API endpoint
+    path('api/sessions/', LearningSessionViewSet.as_view({'get': 'list'}), name='sessions-list'),
+]
