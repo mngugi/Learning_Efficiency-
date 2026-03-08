@@ -7,13 +7,11 @@ Django + **REST** **API** + Python
 
 - We’ll structure it like a real research system.
 
-        We define:
+  We define:
 
-$
-
+$$
 Le = (Kg × Rq) / (Ts × Cl)
-
-$
+$$
 
 ---
 # Quantifying Learning Efficiency During Research Preparation
