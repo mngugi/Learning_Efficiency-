@@ -9,7 +9,9 @@ Django + **REST** **API** + Python
 
 We define:
 
+$$
 Le = (Kg × Rq) / (Ts × Cl)
+$$
 
 ---
 # Quantifying Learning Efficiency During Research Preparation
