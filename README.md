@@ -10,7 +10,7 @@ Django + **REST** **API** + Python
   We define:
 
 $$
-Le = \frac(Kg × Rq) / (Ts × Cl)
+L_e = \frac{K_g \times R_q}{T_s \times C_l}
 $$
 
 ---
