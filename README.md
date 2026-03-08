@@ -10,7 +10,7 @@ Django + **REST** **API** + Python
   We define:
 
 $$
-Le = (Kg × Rq) / (Ts × Cl)
+Le = \frac(Kg × Rq) / (Ts × Cl)
 $$
 
 ---
