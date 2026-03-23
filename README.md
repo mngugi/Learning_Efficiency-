@@ -24,6 +24,8 @@ $$
 L_e = \frac{K_g \times R_q}{T_s \times C_l}
 $$
 
+Where: 
+
 | Symbol | Variable | Range |
 |--------|----------|-------|
 | `Le` | Learning Efficiency | computed |
