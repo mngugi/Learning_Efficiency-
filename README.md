@@ -42,6 +42,8 @@ Lc = PapersRead / StudyTime
 
 ## Project Structure
 
+---
+
 ```
 project/
 ├── manage.py
