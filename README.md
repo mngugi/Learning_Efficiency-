@@ -44,9 +44,9 @@ Sweller identified three load types that together must not exceed working memory
 ┌──────────────────┬────────────────────┬──────────────────────┐
 │  INTRINSIC       │  EXTRANEOUS        │  GERMANE             │
 │                  │                    │                      │
-│  Complexity of   │  Caused by poor    │  Schema-building     │
-│  the material    │  presentation,     │  effort — the goal   │
-│  itself          │  split attention,  │  of all instruction  │
+│ Complexity of    │  Caused by poor    │  Schema-building     │
+│ the material     │  presentation,     │  effort — the goal   │
+│ itself           │  split attention,  │  of all instruction  │
 │                  │  redundancy        │                      │
 │  Fixed — managed │  Minimise this     │  Maximise this       │
 │  via sequencing  │                    │                      │
