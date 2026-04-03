@@ -40,7 +40,7 @@ The `Cl` (cognitive load index, 1–10) is a direct operationalisation of Swelle
 
 Sweller identified three load types that together must not exceed working memory capacity:
 
-
+```
 ┌──────────────────┬────────────────────┬──────────────────────┐
 │  INTRINSIC       │  EXTRANEOUS        │  GERMANE             │
 │                  │                    │                      │
@@ -52,6 +52,8 @@ Sweller identified three load types that together must not exceed working memory
 │  via sequencing  │                    │                      │
 └──────────────────┴────────────────────┴──────────────────────┘
   Total Load  =  Intrinsic  +  Extraneous  +  Germane  ≤  Capacity
+
+```
 
 
 **How `Cl` maps to load types:**
