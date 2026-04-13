@@ -1,6 +1,6 @@
 # 📘 Learning Efficiency API
 
-> A Django REST API for measuring and tracking research preparation efficiency — grounded in three interlocking learning science theories.
+> A Django REST API for measuring and tracking research preparation efficiency, grounded in three interlocking learning science theories.
 
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
 [![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)](https://djangoproject.com)
@@ -28,7 +28,7 @@ $$
 Lc = PapersRead / StudyTime
 ```
 
-The formula encodes a key insight: efficiency is not just about how much you study — it is about **what you retain** (`Kg`), **how reliable your sources are** (`Rq`), and **how much mental overhead you carry** (`Cl`). Each variable maps directly to one of the three theoretical pillars below.
+The formula encodes a key insight: efficiency is not just about how much you study, it is about **what you retain** (`Kg`), **how reliable your sources are** (`Rq`), and **how much mental overhead you carry** (`Cl`). Each variable maps directly to one of the three theoretical pillars below.
 
 ---
 
