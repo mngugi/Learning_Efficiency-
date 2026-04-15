@@ -28,7 +28,7 @@ $$
 Lc = PapersRead / StudyTime
 ```
 
-The formula encodes a key insight: efficiency is not just about how much you study, it is about **what you retain** (`Kg`), **how reliable your sources are** (`Rq`), and **how much mental overhead you carry** (`Cl`). Each variable maps directly to one of the three theoretical pillars below.
+> The formula encodes a key insight: efficiency is not just about how much you study, it is about **what you retain** (`Kg`), **how reliable your > sources are** (`Rq`), and **how much mental overhead you carry** (`Cl`). Each variable maps directly to one of the three theoretical pillars below.
 
 ---
 
