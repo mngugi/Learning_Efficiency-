@@ -62,8 +62,8 @@ Sweller identified three load types that together must not exceed working memory
 |------------|----------------|
 | 1–3 | Low load — germane processing dominates, deep schema formation likely |
 | 4–6 | Moderate load — efficient study under normal conditions |
-| 7–8 | High load — extraneous sources likely present; review session design |
-| 9–10 | Overload — learning efficiency collapses; split sessions recommended |
+| 7–8 | High load - extraneous sources likely present; review session design |
+| 9–10 | Overload - learning efficiency collapses; split sessions recommended |
 
 > A session with `Cl = 9` and `Kg = 80` scores lower than one with `Cl = 3` and `Kg = 70`. The model correctly penalises cognitive overload even when perceived knowledge gain appears high.
 
